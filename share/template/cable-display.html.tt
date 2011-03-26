@@ -1,0 +1,7 @@
+<div class="cable-display"> 
+  <h2 class="cable-title">
+    <a href="[% From %]">[% Title %]</a>
+  </h2>
+  <hr />
+  <div class="cable content-wrapper"></div>
+</div>

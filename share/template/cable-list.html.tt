@@ -1,0 +1,22 @@
+<div class="cable-list content-wrapper">
+<h2>[% title %]</h2>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th class="id">Id</th>
+      <th class="title">Number</th>
+      <th class="title">Title</th>
+    </tr>
+  </thead>
+  <tbody>
+[% FOR cable = cables %]
+    <tr>
+      <td class="id"><tt><b>[% cable.Id %]</b><small>0[% cable.Rev %]</small></tt></td>
+      <td class="id">[% cable.cable_number %]</td>
+      <td class="title"><a href="/cable/[% cable.Id %]/">[% cable.Title %]</a></td>
+    </tr>
+[% END %]
+  </tbody>
+</table>
+

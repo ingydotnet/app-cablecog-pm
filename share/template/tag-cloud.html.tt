@@ -1,0 +1,4 @@
+<div class="tag-cloud content-wrapper">
+<h2>Tag Cloud</h2> 
+<div id="mytagcloud"></div>
+</div>

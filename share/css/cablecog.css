@@ -1,0 +1,32 @@
+.header {
+    background-color: white;
+    border-bottom: 20px solid #F00;
+}
+
+.sortable .header {
+    cursor: pointer;
+}
+
+table.sortable thead tr th, table.tablesorter tfoot tr th {
+    border: 1px solid #fff;
+}
+
+table.sortable tbody tr.odd td {
+    background-color: #F0F0F6;
+}
+
+table.sortable thead tr .header:before {
+    content: "⇵\00a0";
+    color: #555;
+}
+
+table.sortable thead tr .headerSortUp:before {
+    content: "↥\00a0";
+    color: #555;
+}
+
+table.sortable thead tr .headerSortDown:before {
+    content: "↧\00a0";
+    color: #555;
+}
+
